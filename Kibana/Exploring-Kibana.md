@@ -24,9 +24,9 @@
       - 404 = 100%
       - 503 = 0%
     - In the last 7 days, what country produced the majority of the traffic on the website?
-     China with 20% of the traffic
+    - China with 20% of the traffic
     - Of the traffic that's coming from that country, what time of day had the highest amount of activity?
-     China at the 10 hour of the day
+     - China at the 10 hour of the day
     - List all the types of downloaded files that have been identified for the last 7 days, along with a short description of each file type (use Google if you aren't sure about a particular file type).
        ![](Images/most-downloaded-files.PNG)
 3. Now that you have a feel for the data, Let's dive a bit deeper. Look at the chart that shows Unique Visitors Vs. Average Bytes.
