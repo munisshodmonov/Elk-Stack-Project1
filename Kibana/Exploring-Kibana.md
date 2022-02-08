@@ -29,20 +29,32 @@
      - China at the 10 hour of the day
     - List all the types of downloaded files that have been identified for the last 7 days, along with a short description of each file type (use Google if you aren't sure about a particular file type).
        ![](Images/most-downloaded-files.PNG)
+       - **gz - gzip uses compression archives that use compression algorithm**
+       - **css - Cascading Style Sheets that is used to style and layout for web pages**
+       - **zip - type of format that uses lossless data compression**
+       - **deb - debian type of format for Debian Linux distribution**
+       - **rpm - Red Hat Packet Manager**
 3. Now that you have a feel for the data, Let's dive a bit deeper. Look at the chart that shows Unique Visitors Vs. Average Bytes.
      - Locate the time frame in the last 7 days with the most amount of bytes (activity).
+     - 10,735
      - In your own words, is there anything that seems potentially strange about this activity?
+     - 3 suspecious visitors.
 
 4. Filter the data by this event.
      - What is the timestamp for this event?
+     - February 6, 2022, at 9:55 PM
      - What kind of file was downloaded?
+     - ZIP and RPM
      - From what country did this activity originate?
+     - US, China and India
      - What HTTP response codes were encountered by this visitor?
-
+     - 200
 5. Switch to the Kibana Discover page to see more details about this activity.
      - What is the source IP address of this activity?
+     - 
      - What are the geo coordinates of this activity?
      - What OS was the source machine running?
+     - Win 8
      - What is the full URL that was accessed?
      - From what website did the visitor's traffic originate?
 
