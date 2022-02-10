@@ -42,28 +42,34 @@
 
 4. Filter the data by this event.
      - What is the timestamp for this event?
-     - February 6, 2022, at 9:55 PM
+     - Feb 6, 2022 @ 21:57:28.552, Feb 6, 2022 @ 23:08:08.182, Feb 6, 2022 @ 23:24:09.240
      - What kind of file was downloaded?
-     - ZIP and RPM
+     - ZIP, APM and RPM
      - From what country did this activity originate?
      - US, China and India
      - What HTTP response codes were encountered by this visitor?
      - 200
 5. Switch to the Kibana Discover page to see more details about this activity.
      - What is the source IP address of this activity?
-     - 
+     - 	35.143.166.159, 73.105.236.24, 223.112.248.233
      - What are the geo coordinates of this activity?
+     -  "lat": 43.34121, "lon": -73.6103075, 2. "lat": 42.99821222, "lon": -74.32955111, 3. "lat": 37.85008167, "lon": -83.84575194
      - What OS was the source machine running?
-     - Win 8
+     - Linux 
      - What is the full URL that was accessed?
+     - https://artifacts.elastic.co/downloads/beats/metricbeat/metricbeat-6.3.2-i686.rpm, 	https://artifacts.elastic.co/downloads/kibana/kibana-6.3.2-windows-x86_64.zip, https://www.elastic.co/downloads/apm
      - From what website did the visitor's traffic originate?
-
+     -  http://nytimes.com/warning/georgi-beregovoi, http://twitter.com/success/maksim-surayev, http://facebook.com/success/jay-c-buckey
 6. Finish your investigation with a short overview of your insights. 
 
      - What do you think the user was doing?
+     - All of them were downloading a file from elastic.
      - Was the file they downloaded malicious? If not, what is the file used for?
+     - The files are not malicious they are used for a kibana setup
      - Is there anything that seems suspicious about this activity?
+     - No, they were downloading from a legitimate source
      - Is any of the traffic you inspected potentially outside of compliance guidlines?
+     - Everything looks normal there was nothing suspecious.
 
 ---
 © 2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.  
