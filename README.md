@@ -26,9 +26,9 @@ Load balancing ensures that the application will be highly efficient, in additio
 - Load Balancers protect from having DDoS attacks and ensure that servers dont become overloaded.
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the logs and system statistics and metrics.
-- _TODO: What does Filebeat watch for?_
+- _What does Filebeat watch for?_
 - Filebeat watches for the information that is changed and show what time it took place.
-- _TODO: What does Metricbeat record?_
+- _What does Metricbeat record?_
 - Metric records and logs services from the operating system that is running on the device. Then outputs them on Elasticsearch and Logstash.
 The configuration details of each machine may be found below.
 _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
