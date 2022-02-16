@@ -3,9 +3,9 @@ The files in this repository were used to configure the network depicted below.
 
 ![](https://github.com/munisshodmonov/Elk-Stack-Project1/blob/main/Diagram/Diagram-Project-Elk.PNG)
 
-These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the _____ file may be used to install only certain pieces of it, such as Filebeat.
+These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the playbook file may be used to install only certain pieces of it, such as Filebeat.
 
-  - _TODO: Enter the playbook file._
+  ![](https://github.com/munisshodmonov/Elk-Stack-Project1/blob/main/ansible/files/filebeat-config.yml)
 
 This document contains the following details:
 - Description of the Topologu
