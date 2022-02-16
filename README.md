@@ -95,7 +95,7 @@ SSH into the control node and follow the steps below:
 
 - _Which file is the playbook? Where do you copy it?_
 - firebeat-playbook.yml copied to /etc/ansible/roles
-- _Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?_
+- Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?
 - by editing hosts file and inputing their IP-Adress to it for the one you want. Theres also a webservers section where you can edit for which machine to install
 - _Which URL do you navigate to in order to check that the ELK server is running?
 - navigate to http://[your.ELK-VM.External.IP]:5601/app/kibana remember to edit the url according to your public Elk-VM server to be able to access the website for Kibana.
