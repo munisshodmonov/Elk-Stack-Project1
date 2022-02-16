@@ -30,8 +30,8 @@ Integrating an ELK server allows users to easily monitor the vulnerable VMs for 
 - Filebeat watches for the information that is changed and show what time it took place.
 - _What does Metricbeat record?_
 - Metric records and logs services from the operating system that is running on the device. Then outputs them on Elasticsearch and Logstash.
-The configuration details of each machine may be found below.
-_Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
+- The configuration details of each machine may be found below.
+
 
 | Name     | Function | IP Address | Operating System |
 |----------|----------|------------|------------------|
