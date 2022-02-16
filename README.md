@@ -25,20 +25,21 @@ Load balancing ensures that the application will be highly efficient, in additio
 - _What aspect of security do load balancers protect? What is the advantage of a jump box?_
 - Load Balancers protect from having DDoS attacks and ensure that servers dont become overloaded.
 
-Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the _____ and system _____.
+Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the logs and system statistics and metrics.
 - _TODO: What does Filebeat watch for?_
+- Filebeat watches for the information that is changed and show what time it took place.
 - _TODO: What does Metricbeat record?_
-
+- Metric records and logs services from the operating system that is running on the device. Then outputs them on Elasticsearch and Logstash.
 The configuration details of each machine may be found below.
 _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
 
 | Name     | Function | IP Address | Operating System |
 |----------|----------|------------|------------------|
-| Jump Box | Gateway  | 10.0.0.1   | Linux            |
-| Web-1    |          |            |                  |
-| TODO     |          |            |                  |
-| TODO     |          |            |                  |
-
+| Jump Box | Gateway  | 10.0.0.4   | Linux            |
+| Web-1    | Server   | 10.0.0.5   | Linux            |
+| Web-2    | Server   | 10.0.0.6   | Linux            |
+| Elk-VM   | Server   | 10.1.0.4   | Linux            |
+| Web-3    | Server   | 10.0.0.7   | Linux            |
 ### Access Policies
 
 The machines on the internal network are not exposed to the public Internet. 
