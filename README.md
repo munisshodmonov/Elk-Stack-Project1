@@ -82,7 +82,7 @@ We have installed the following Beats on these machines:
 - Private IP - 10.0.0.4 
 
 These Beats allow us to collect the following information from each machine:
-- _TODO: In 1-2 sentences, explain what kind of data each beat collects, and provide 1 example of what you expect to see. E.g., `Winlogbeat` collects Windows logs, which we use to track user logon events, etc._
+- Firebeat collects and logs data for each event that happened on the machine, meanwhile Metric beat analyzes metrics for the machine such as CPU and how much each service is using
 
 ### Using the Playbook
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
